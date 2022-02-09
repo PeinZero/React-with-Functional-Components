@@ -12,14 +12,14 @@ You have states that belongs together, or if you have state updates that depend 
 The Prop chains is formed / Prop drilling is happening.
 
 ## Concepts Covered
-- Effects / Side-Effects
-
-- useEffect() Hook
---- useEffect() Dependencies
---- useEffect() Clean up function & Debouncing
-
-- useReducer() Hook
-
-- React Context
---- using Consumer & Provider
---- using useContext() hook & Provider
+- Effects / Side-Effects  
+  
+- useEffect() Hook  
+--- useEffect() Dependencies  
+--- useEffect() Clean up function & Debouncing  
+  
+- useReducer() Hook  
+  
+- React Context  
+--- using Consumer & Provider  
+--- using useContext() hook & Provider  
