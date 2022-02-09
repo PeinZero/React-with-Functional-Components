@@ -6,7 +6,7 @@ import classes from './Navigation.module.css';
 const Navigation = (props) => {
   // Using useContext hook
   const ctx = useContext(AuthContext);
-  
+
   return (
     // Using useContext hook
     <nav className={classes.nav}>
@@ -20,7 +20,7 @@ const Navigation = (props) => {
               <a href="/">Admin</a>
             </li>
             <li>
-              <button onClick={props.onLogout}>Logout</button>
+              <button onClick={ctx.onLogout}>Logout</button>
             </li>
           </>
         )}
@@ -44,7 +44,7 @@ const Navigation = (props) => {
     //               <a href="/">Admin</a>
     //             </li>
     //             <li>
-    //               <button onClick={props.onLogout}>Logout</button>
+    //               <button onClick={ctx.onLogout}>Logout</button>
     //           </li>
     //           </>
     //         )}
